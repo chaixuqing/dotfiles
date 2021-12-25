@@ -147,7 +147,7 @@ export PATH=${CUDA_HOME}/bin:${PATH}
 #auto exection
 git config --global http.https://github.com.proxy http://$proxy_ip:7890
 git config --global https.https://github.com.proxy http://$proxy_ip:7890
-
+#fzf config
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+#broot config
 source /home/xuqingchai/.config/broot/launcher/bash/br
